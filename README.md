@@ -45,7 +45,7 @@ Este repositorio contiene un conjunto de scripts para configurar y personalizar 
 ## Uso
 
 ```bash
-git clone https://github.com/tu_usuario/arch_post_install.git
+git clone https://github.com/glmbxecurity/arch_post_install_glmbx.git
 cd arch_post_install_glmbx
 sudo bash 00_setup.sh
 
