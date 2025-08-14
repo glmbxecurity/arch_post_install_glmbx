@@ -52,4 +52,7 @@ El software incluido está seleccionado según mis necesidades y preferencias pe
 git clone https://github.com/glmbxecurity/arch_post_install_glmbx.git
 cd arch_post_install_glmbx
 sudo bash 00_setup.sh
+```
 
+## Programas peronalizados
+Si queremos crear nuestra propia lista de programas, basta con poner el nombre del programa seguido de un = y el repositorio donde se encuentra. si está en aur poner aur y se instalará con yay. si está en los repos de arch, poner official y se instalará con pacman. El nombre del paquete en el fichero de configuración debe coincidir exactamente con el nombre real en los repositorios para que lo sepa encontrar.
