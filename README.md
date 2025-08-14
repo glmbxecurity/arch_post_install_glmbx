@@ -1,7 +1,10 @@
 # Arch Linux Post-Install AIO
 
-Este repositorio contiene un conjunto de scripts para configurar y personalizar Arch Linux después de una instalación limpia. Está diseñado para automatizar tareas de instalación de software, configuración del sistema y personalización del usuario, de manera semiautomática y controlada.
+Este repositorio contiene un conjunto de scripts para configurar y personalizar Arch Linux después de una instalación limpia. Está diseñado para automatizar tareas de instalación de software, configuración del sistema y personalización del usuario, de manera semiautomática y controlada.  
 
+  
+El proyecto está orientado inicialmente a mi propio equipo. En mi caso, utilizo asusctl para gestionar mi ASUS, y dispongo de un disco NVMe adicional que monto y enlazo a mi directorio $HOME. Desde ese mismo NVMe copio el túnel de WireGuard a /etc/wireguard.
+El software incluido está seleccionado según mis necesidades y preferencias personales, al igual que la configuración por defecto. No obstante, el proyecto es totalmente adaptable: puede descargarse y modificarse libremente. Para ello se han añadido dos archivos de configuración que permiten personalizar el software a instalar, mientras que el script 00_setup.sh ofrece la posibilidad de decidir qué scripts ejecutar.
 ---
 
 ## Contenido
