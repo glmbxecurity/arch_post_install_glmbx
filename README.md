@@ -44,9 +44,8 @@ Este repositorio contiene un conjunto de scripts para configurar y personalizar 
 
 ## Uso
 
-1. Clona el repositorio:
-
 ```bash
 git clone https://github.com/tu_usuario/arch_post_install.git
 cd arch_post_install
+sudo bash 00_install.sh
 
