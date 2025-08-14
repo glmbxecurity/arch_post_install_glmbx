@@ -34,6 +34,7 @@ Este repositorio contiene un conjunto de scripts para configurar y personalizar 
 ## Requisitos
 
 - Arch Linux (o derivadas)
+- DE **Cinnamon**
 - `bash`  
 - `git`  
 - `whiptail` para el menú interactivo
